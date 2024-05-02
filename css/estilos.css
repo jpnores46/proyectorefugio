@@ -102,14 +102,15 @@ A:active {text-decoration:none;color:#050000;}
 A:hover {text-decoration:underline;color:#999999;} 
 
 .footer{
-    padding-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     background-color: #f4d8f7;
 
 
 }
 .logoFijo {
     margin: 1%;
-    width: 5rem;
+    width: 4rem;
     position: fixed;
     bottom: 5rem;
     right: 2%;
@@ -141,6 +142,83 @@ A:hover {text-decoration:underline;color:#999999;}
     text-align:right;
     /* word-wrap: break-word; */
 }
+
+/*modificaciones elias*/
+
+*{
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.logoflotante{
+    display: flex; /*elimina scroll horizontal y espacio en blanco a la derecha*/
+}
+.card-img-top{
+    margin: 5px;
+    width: auto;
+    border-radius: 10px;
+}
+.card{
+    background-color:#F4D8F7 ;
+}
+.card-body-text{
+    margin: 20px;
+    background-color: #384861;
+    padding: 15px;
+    border-radius: 20px;
+}
+.dona{
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+.registro{
+    display: inline-flex;
+    padding: 20px;
+    justify-content:center;
+    border-radius: 30px;
+    background-color: #F4D8F7;
+    margin: 20px;
+    max-width: 70%;
+
+}
+.registro_article{
+    align-content: center;
+    justify-content: center;
+}
+.registro_article_cont{
+    display: inline;
+}
+.registro_article_p{
+    text-align: center;
+    font-size: 24px;
+}
+.registro_article_h3{
+    text-align: center;
+}
+.div_imagen_dona{
+    display:inline-flex;
+    max-width: 30%;
+    justify-content: center;
+
+}
+#imagen_dona{
+    width: 70%;
+    height: auto;
+    border-radius:20% ;
+}
+@media ( max-width: 1190px) {
+    .registro{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .div_imagen_dona{
+        margin: auto;
+        max-width: 50%;
+    }
+}
+
 
 @media (max-width: 600px) {
     body {
@@ -237,7 +315,7 @@ A:hover {text-decoration:underline;color:#999999;}
         flex-direction: column;
 
     }
-
+}
 /* para celu ----------------- */
 
 @media (max-width: 300px) {
