@@ -66,10 +66,14 @@
         display: none;
 
     }
+    .container{
+        width: 100%;
+    }
     .row{
         display: flex;
         flex-direction: column;
-
+        width:100%;
+        align-items: center;
 
     }
     .col-4 {
@@ -79,7 +83,13 @@
         justify-content: left; */
         color: #0a0a0a;
         height: 50%;
-    } 
+        width: 100%;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .card{
+        width: 80%;
+    }
     .div.col-4{
         display: flex; 
         flex-direction: column;
@@ -90,7 +100,8 @@
     }
         
     .texto{
-        display: none;
+        display: flex;
+        
     }
     #footer-menu {
 
@@ -167,8 +178,6 @@
     .row{
         display: flex;
         flex-direction: column;
-
-
     }
     .col-4 {
         display: flex; 
