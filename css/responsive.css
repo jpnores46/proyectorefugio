@@ -47,7 +47,7 @@
 @media (max-width: 600px) {
     body {
         background-color:#fff;
-        color: #fff;
+        color: black;
 
     }
     .calle{
@@ -56,11 +56,11 @@
        
     }
     .navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top{
-        display:none;
+        display:flex;
 
     }
     .navbar-brand{
-        display: none;
+        display: flex;
     }
     .nav{
         display: none;
@@ -85,7 +85,7 @@
         flex-direction: column;
     }
     .div.container-fluid{
-        display: none;
+        display: flex;
 
     }
         
